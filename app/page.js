@@ -1,3 +1,11 @@
+import ContactForm from "./_components/ContactForm/ContactForm";
+import Hero from "./_components/Hero/Hero";
+
 export default function Home() {
-  return <div>Gokul</div>;
+  return (
+    <div>
+      <Hero />
+      <ContactForm />
+    </div>
+  );
 }
