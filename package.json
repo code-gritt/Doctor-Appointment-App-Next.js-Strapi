@@ -11,6 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/material": "^5.15.15",
     "@radix-ui/react-slot": "^1.0.2",
     "aos": "^2.3.4",
@@ -20,6 +21,7 @@
     "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-scroll": "^1.9.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
