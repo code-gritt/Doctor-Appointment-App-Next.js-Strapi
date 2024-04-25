@@ -1,0 +1,137 @@
+.container_main {
+  padding: 60px 0px;
+}
+.top_bottom {
+  background: var(--color-dark);
+  transition: all 0.3s ease-in-out;
+}
+.center {
+  background: var(--secondary-bg);
+  transition: all 0.3s ease-in-out;
+}
+.hover {
+  transition: all 0.3s ease-in-out;
+}
+.hover:hover {
+  transform: translateY(-15px);
+}
+.link {
+  font-size: var(--font-small);
+  text-decoration: none;
+  background: linear-gradient(180deg, #2f80ec 0%, #1addf9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.link:hover {
+  text-decoration: none;
+}
+.link_arrow {
+  transition: all 0.3s ease-in-out;
+}
+.link:hover .link_arrow {
+  transform: translatex(5px);
+}
+
+.feature_header {
+  text-align: center;
+  color: rgb(34 197 94);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-bottom: 50px;
+}
+
+.feature_container {
+  margin-left: 120px;
+}
+
+.img_container {
+  margin-top: 15px;
+}
+.container_header {
+  max-width: 450px;
+  color: --secondary-bg;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.feature_svg {
+  margin-left: 5px;
+}
+.container_subtitle {
+  color: --secondary-bg;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.container_arrow {
+  height: 5px;
+  flex-shrink: 0;
+  stroke-width: 3px;
+  stroke: rgb(34 197 94);
+}
+
+.flex_container:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-10px);
+}
+.common_gap {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1224px) {
+  .container_main {
+    padding: 60px;
+  }
+  .container_header {
+    max-width: 450px;
+    font-size: 32px;
+  }
+  .container_subtitle {
+    font-size: 26px;
+  }
+  .feature_header {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 996px) {
+  .common_gap {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .container_main {
+    padding: 40px 20px;
+  }
+  .container_header {
+    max-width: 450px;
+    font-size: 32px;
+  }
+  .container_subtitle {
+    font-size: 26px;
+  }
+  .feature_header {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container_main {
+    padding: 30px 10px;
+  }
+  .container_header {
+    max-width: 450px;
+    font-size: 32px;
+  }
+  .container_subtitle {
+    font-size: 26px;
+  }
+  .feature_header {
+    font-size: 40px;
+  }
+}

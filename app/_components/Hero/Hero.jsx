@@ -5,7 +5,6 @@ import clsx from "clsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styles from "./styles.module.css";
-import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   useEffect(() => {
@@ -29,7 +28,7 @@ const Hero = () => {
                 various subjects in just a click away!
               </p>
 
-              <Button className={styles.signInVectorImgBtn}>Book Now</Button>
+              <button className={styles.signInVectorImgBtn}>Book Now</button>
             </div>
             <div
               data-aos="zoom-in-up"
