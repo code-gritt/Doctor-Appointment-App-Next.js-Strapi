@@ -70,7 +70,10 @@
   * {
     @apply border-border;
   }
-  body {
+  /* body {
     @apply bg-background text-foreground;
+  } */
+  body {
+    @apply dark:bg-gray-800 bg-white;
   }
 }
