@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/_components/Searchbar/Searchbar.jsx", "app/_components/Process/VisionAIsolutions.jsx"  ],
   "exclude": [
     "node_modules"
   ]

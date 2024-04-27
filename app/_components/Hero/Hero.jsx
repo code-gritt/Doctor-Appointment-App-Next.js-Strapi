@@ -21,11 +21,12 @@ const Hero = () => {
           <div className={clsx("row", styles.container_sub)}>
             <div className={clsx("col col--6", styles.hero_content)}>
               <h1 data-aos="fade-up" className={styles.hero_title}>
-                Find and Book an Appoinment with your Favourite Doctors
+                Find and Book an Appoinment with our finest craftsmen and
+                service people
               </h1>
               <p data-aos="fade-up" className={styles.hero_subtitle}>
-                The ability to access millions of well known specialists on
-                various subjects in just a click away!
+                The ability to access millions of well known service experts
+                from housing & furnishing in just a click away!
               </p>
 
               <button className={styles.signInVectorImgBtn}>Book Now</button>
@@ -40,7 +41,7 @@ const Hero = () => {
                 playsInline
                 muted
                 className={styles.hero_video}
-                src="/Heroic_Section.mp4"
+                src="/Repair.mp4"
                 preload="none"
               ></video>
             </div>

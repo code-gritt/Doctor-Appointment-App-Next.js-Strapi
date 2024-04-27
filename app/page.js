@@ -1,7 +1,7 @@
 import ContactForm from "./_components/ContactForm/ContactForm";
 import Footer from "./_components/Footer/Footer";
 import Hero from "./_components/Hero/Hero";
-import VisionAIsolutions from "./_components/Process/VisionAIsolutions";
+import No_Code_Artificial_Intelligence_Process from "./_components/Process/VisionAIsolutions";
 import Searchbar from "./_components/Searchbar/Searchbar";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <hr />
       <Searchbar />
       <hr />
-      <VisionAIsolutions />
+      <No_Code_Artificial_Intelligence_Process />
       <ContactForm />
       <Footer />
     </div>
