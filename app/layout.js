@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header/Header";
 import { ThemeProvider } from "next-themes";
+import NextAuthSessionProvider from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,10 +16,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class">
-          <div>
-            <Header />
-            {children}
-          </div>
+          <NextAuthSessionProvider>
+            <div>
+              <Header />
+              {children}
+            </div>
+          </NextAuthSessionProvider>
         </ThemeProvider>
       </body>
     </html>

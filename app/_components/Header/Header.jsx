@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ToggleButton from "../ToggleButton";
+import { signIn } from "next-auth/react";
+import "./styles.css";
 
 const Header = () => {
   const Menu = [
@@ -43,6 +47,12 @@ const Header = () => {
           ))}
         </ul>
 
+        <button
+          className="signInVectorImgBtn"
+          onClick={() => signIn("descope", { callbackUrl: "/dashboard" })}
+        >
+          Apply
+        </button>
         <ToggleButton />
       </header>
     </>
